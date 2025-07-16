@@ -7,6 +7,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | Nº | Archivo | Descripción |
 |----|---------|-------------|
 | 01 | [01-basic-setup](./01-basic-setup/) | Primeros pasos inicializar el provider
+| 02 | [02-setup-provider-docker](./02-setup-provider-docker/) | Levanta app nodejs con provider docker
 
 ## 📦 Requisitos
 
