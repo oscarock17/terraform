@@ -8,6 +8,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 |----|---------|-------------|
 | 01 | [01-basic-setup](./01-basic-setup/) | Primeros pasos inicializar el provider
 | 02 | [02-setup-provider-docker](./02-setup-provider-docker/) | Levanta app nodejs con provider docker
+| 03 | [03-s3-bucket-versioning](./03-s3-bucket-versioning/) | Crea bucket S3 en AWS con versionado
 
 ## 📦 Requisitos
 
