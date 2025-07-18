@@ -13,6 +13,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 05 | [05-aws-ec2-instance](./05-aws-ec2-instance/) | Crea Instancia EC2 en AWS
 | 06 | [06-variables-outputs](./06-variables-outputs/) | Variables y Outputs con AWS
 | 07 | [07-tags-namings](./07-tags-naming/) | Tags de recursos en AWS
+| 08 | [08-security-group](./08-security-group/) | Crea security group en AWS port (22, 80)
 
 ## 📦 Requisitos
 
