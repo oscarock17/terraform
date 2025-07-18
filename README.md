@@ -12,6 +12,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 04 | [04-vpc-with-subnets](./04-vpc-with-subnets/) | Crea VPC en AWS con 2 subnest publicas, 2 privadas, NAT, IGW y route tables
 | 05 | [05-aws-ec2-instance](./05-aws-ec2-instance/) | Crea Instancia EC2 en AWS
 | 06 | [06-variables-outputs](./06-variables-outputs/) | Variables y Outputs con AWS
+| 07 | [07-tags-namings](./07-tags-naming/) | Tags de recursos en AWS
 
 ## 📦 Requisitos
 
