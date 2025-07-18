@@ -18,6 +18,21 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 - Cuenta de AWS
 - Configurar `aws configure` o usar variables de entorno
 
+## 🛠️ Comandos útiles de Terraform
+
+| Comando | Descripción |
+|--------|-------------|
+| `terraform init` | Inicializa el proyecto y descarga los proveedores |
+| `terraform plan` | Muestra el plan de ejecución antes de aplicar cambios |
+| `terraform apply` | Aplica los cambios definidos en el código |
+| `terraform destroy` | Elimina toda la infraestructura creada |
+| `terraform fmt` | Formatea el código Terraform de acuerdo a las convenciones |
+| `terraform validate` | Valida la sintaxis del código Terraform |
+| `terraform output` | Muestra los valores de salida definidos |
+| `terraform state list` | Lista los recursos registrados en el estado actual |
+| `terraform taint <recurso>` | Marca un recurso para ser recreado en la próxima ejecución |
+| `terraform import <recurso> <id>` | Importa recursos existentes al estado de Terraform |
+
 ## 🙌 Autor
 
 - Este proyecto fue creado por **Oscar Diaz**.
