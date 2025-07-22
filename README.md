@@ -16,6 +16,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 08 | [08-security-group](./08-security-group/) | Crea security group en AWS port (22, 80)
 | 09 | [09-ec2-eip-sg](./09-ec2-eip-sg/) | Crea EC2 con un security group en AWS port (22, 80)
 | 10 | [10-alb-basic](./10-alb-basic/) | Crea un ALB con una VPC y otros componentes en AWS
+| 11 | [11-asg-launch-template](./11-asg-launch-template/) | Crea ASG launch template en AWS
 
 ## 📦 Requisitos
 
