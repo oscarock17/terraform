@@ -18,6 +18,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 10 | [10-alb-basic](./10-alb-basic/) | Crea un ALB con una VPC y otros componentes en AWS
 | 11 | [11-asg-launch-template](./11-asg-launch-template/) | Crea ASG launch template en AWS
 | 12 | [12-modules-reuse](./12-modules-reuse/) | Reutilizacion de modulos creados en AWS
+| 13 | [13-s3-with-policy/](./13-s3-with-policy/) | Crea bucket S3 con politica en AWS
 
 
 ## 🧩  Modulos disponibles
