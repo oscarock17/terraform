@@ -17,6 +17,16 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 09 | [09-ec2-eip-sg](./09-ec2-eip-sg/) | Crea EC2 con un security group en AWS port (22, 80)
 | 10 | [10-alb-basic](./10-alb-basic/) | Crea un ALB con una VPC y otros componentes en AWS
 | 11 | [11-asg-launch-template](./11-asg-launch-template/) | Crea ASG launch template en AWS
+| 12 | [12-modules-reuse](./12-modules-reuse/) | Reutilizacion de modulos creados en AWS
+
+
+## 🧩  Modulos disponibles
+
+| Nº | Archivo | Descripción |
+|----|---------|-------------|
+| 01 | [module_vpc](./modules/module_vpc/) | Modulo para crear una VPC completa con subnets, IGW, NAT, RT en AWS
+| 02 | [module_security_groups](./modules/module_security_groups/) | Modulo para crear security groups en AWS
+
 
 ## 📦 Requisitos
 
