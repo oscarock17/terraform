@@ -27,6 +27,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 |----|---------|-------------|
 | 01 | [module_vpc](./modules/module_vpc/) | Modulo para crear una VPC completa con subnets, IGW, NAT, RT en AWS
 | 02 | [module_security_groups](./modules/module_security_groups/) | Modulo para crear security groups en AWS
+| 03 | [module_EC2](./modules/module_ec2/) | Modulo para crear instancias EC2 en AWS
 
 
 ## 📦 Requisitos
