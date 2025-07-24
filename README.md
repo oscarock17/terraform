@@ -20,6 +20,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 12 | [12-modules-reuse](./12-modules-reuse/) | Reutilizacion de modulos creados en AWS
 | 13 | [13-s3-with-policy](./13-s3-with-policy/) | Crea bucket S3 con politica en AWS
 | 14 | [14-backend-remote](./14-backend-remote/) | Crea backend remoto para guardar el estado usando s3 y dymamoDB en AWS
+| 15 | [15-workspaces](./15-workspaces/) | Creacion y manejo de workspaces con AWS
 
 ## 🧩  Modulos disponibles
 
