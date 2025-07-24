@@ -52,6 +52,9 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | `terraform state list` | Lista los recursos registrados en el estado actual |
 | `terraform taint <recurso>` | Marca un recurso para ser recreado en la próxima ejecución |
 | `terraform import <recurso> <id>` | Importa recursos existentes al estado de Terraform |
+| `terraform workspace new <ambiente>` | Crea un nuevo workspace |
+| `terraform workspace list` | Lista los workspaces |
+| `terraform workspace select <ambiente>` | Cambia entre workspaces |
 
 ## 🙌 Autor
 
