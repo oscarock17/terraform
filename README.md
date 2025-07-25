@@ -31,6 +31,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 03 | [module_EC2](./modules/module_ec2/) | Modulo para crear instancias EC2 en AWS
 | 04 | [module_S3](./modules/module_s3/) | Modulo para crear buckets de S3 en AWS
 | 05 | [module_load_balancer](./modules/module_load_balancer/) | Modulo para crear un load balancer en AWS
+| 06 | [module_efs](./modules/module_efs/) | Modulo para crear un EFS en AWS
 
 
 ## 📦 Requisitos
