@@ -32,6 +32,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 04 | [module_S3](./modules/module_s3/) | Modulo para crear buckets de S3 en AWS
 | 05 | [module_load_balancer](./modules/module_load_balancer/) | Modulo para crear un load balancer en AWS
 | 06 | [module_efs](./modules/module_efs/) | Modulo para crear un EFS en AWS
+| 07 | [module_ssm_role](./modules/module_ssm_role/) | Modulo para crear un rol de IAM para usar SSM
 
 
 ## 📦 Requisitos
