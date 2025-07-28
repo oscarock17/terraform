@@ -21,7 +21,8 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 13 | [13-s3-with-policy](./13-s3-with-policy/) | Crea bucket S3 con politica en AWS
 | 14 | [14-backend-remote](./14-backend-remote/) | Crea backend remoto para guardar el estado usando s3 y dymamoDB en AWS
 | 15 | [15-workspaces](./15-workspaces/) | Creacion y manejo de workspaces con AWS
-| 15 | [16-using-tfvars](./16-using-tfvars/) | Creacion y manejo de tfvars con AWS
+| 16 | [16-using-tfvars](./16-using-tfvars/) | Creacion y manejo de tfvars con AWS
+| 17 | [17-secrets-manager](./17-secrets-manager/) | Creacion de secretos por medio de secret manager en AWS
 
 ## 🧩  Modulos disponibles
 
