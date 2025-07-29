@@ -7,10 +7,10 @@ on:
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}  # si lo usas
+  AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}
 
 jobs:
-  destroy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,10 +22,17 @@ jobs:
         with:
           terraform_version: 1.12.0
 
-      - name: Terraform Init
-        run: terraform init
-        working-directory: 18-cicd-github-actions
+      - name: Initialize Terraform
+        run: cd 18-cicd-github-actions && terraform init
 
-      - name: Terraform Destroy
-        run: terraform destroy -auto-approve
-        working-directory: 18-cicd-github-actions
+      - name: Validate Terraform configuration
+        run: cd 18-cicd-github-actions && terraform validate
+
+      - name: Plan Terraform deployment
+        run: cd 18-cicd-github-actions && terraform plan
+
+      - name: Apply Terraform destroy
+        run: cd 18-cicd-github-actions && terraform destroy -auto-approve # este comando aplica los cambios sin pedir confirmación
+
+      - name: ✅ Instance destroy output
+        run: echo "EC2 Instance destroy successfully!"
