@@ -1,0 +1,36 @@
+name: "Terraform CI/CD with GitHub Actions"
+description: "This workflow deploys an EC2 instance using Terraform and GitHub Actions."
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "18-cicd-github-actions/**"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Descargar código
+        uses: actions/checkout@v4
+
+      - name: Set up Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.12.0
+
+      - name: Initialize Terraform
+        run: terraform init
+
+      - name: Validate Terraform configuration
+        run: terraform validate
+
+      - name: Plan Terraform deployment
+        run: terraform plan
+
+      - name: Apply Terraform deployment
+        run: terraform apply -auto-approve # este comando aplica los cambios sin pedir confirmación
+
+      - name: ✅ Output EC2 instance details
+        run: echo "EC2 Instance deployed successfully!"
