@@ -1,3 +1,5 @@
+#esto solo aplica si el archivo tfstate se aloja en un bucket de S3
+# si no es asi, no va a funcionar porque cada vez que se ejecuta el workflow, se crea un nuevo archivo tfstate
 name: "Terraform Destroy"
 description: "Destroy resources created by Terraform"
 
