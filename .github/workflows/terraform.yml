@@ -8,6 +8,11 @@ on:
       - "18-cicd-github-actions/**"
       - ".github/workflows/terraform.yml"
 
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_ACCESS_SECRET: ${{ secrets.AWS_ACCESS_SECRET }}
+  AWS_SESSION_TOKEN: ${{ secrets.AWS_SESSION_TOKEN }}  # opcional
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
