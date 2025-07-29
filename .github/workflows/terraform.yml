@@ -3,7 +3,7 @@ description: "This workflow deploys an EC2 instance using Terraform and GitHub A
 
 on:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - "18-cicd-github-actions/**"
 
