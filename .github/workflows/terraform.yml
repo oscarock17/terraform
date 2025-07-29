@@ -6,6 +6,7 @@ on:
     branches: [master]
     paths:
       - "18-cicd-github-actions/**"
+      - ".github/workflows/terraform.yml"
 
 jobs:
   deploy:
@@ -21,16 +22,16 @@ jobs:
           terraform_version: 1.12.0
 
       - name: Initialize Terraform
-        run: terraform init
+        run: cd 18-cicd-github-actions && terraform init
 
       - name: Validate Terraform configuration
-        run: terraform validate
+        run: cd 18-cicd-github-actions && terraform validate
 
       - name: Plan Terraform deployment
-        run: terraform plan
+        run: cd 18-cicd-github-actions && terraform plan
 
       - name: Apply Terraform deployment
-        run: terraform apply -auto-approve # este comando aplica los cambios sin pedir confirmación
+        run: cd 18-cicd-github-actions && terraform apply -auto-approve # este comando aplica los cambios sin pedir confirmación
 
       - name: ✅ Output EC2 instance details
         run: echo "EC2 Instance deployed successfully!"
