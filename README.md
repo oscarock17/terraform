@@ -25,7 +25,7 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 17 | [17-secrets-manager](./17-secrets-manager/) | Creacion de secretos por medio de secret manager en AWS
 | 18 | [18-cicd-github-actions](./18-cicd-github-actions/) | Crea con github actions CI/CD una instancia EC2 en AWS
 | 19 | [19-import-resource](./19-import-resource/) | Uso del import para importar recursos existentes en AWS
-
+| 20 | [20-depends-on](./20-depends-on/) | Uso del del depends on para dependencia de un recurso en AWS
 
 ## 🧩  Modulos disponibles
 
