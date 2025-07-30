@@ -24,6 +24,8 @@ Este repositorio contiene una colección de ejercicios en Terraform pensados par
 | 16 | [16-using-tfvars](./16-using-tfvars/) | Creacion y manejo de tfvars con AWS
 | 17 | [17-secrets-manager](./17-secrets-manager/) | Creacion de secretos por medio de secret manager en AWS
 | 18 | [18-cicd-github-actions](./18-cicd-github-actions/) | Crea con github actions CI/CD una instancia EC2 en AWS
+| 19 | [19-import-resource](./19-import-resource/) | Uso del import para importar recursos existentes en AWS
+
 
 ## 🧩  Modulos disponibles
 
